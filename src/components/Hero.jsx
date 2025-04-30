@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/profilePic.jpg";
 import { HERO_CONTENT } from "../constants";
 import {motion} from "framer-motion"
 
@@ -60,7 +60,7 @@ const Hero = () => {
               variants={childVariants}
               className="pb-2 text-4xl tracking-tighter lg:text-8xl"
             >
-              Ravi Kumar
+              Shivang Rastogi
             </motion.h2>
             <motion.span
               variants={childVariants}

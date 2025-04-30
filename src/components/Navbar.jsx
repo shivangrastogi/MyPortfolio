@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import logo from "../assets/raviKumarLogo.webp";
+import logo from "../assets/myLogo.png";
 
 const Navbar = () => {
   return (
@@ -11,8 +11,8 @@ const Navbar = () => {
           <img
             src={logo}
             className="mx-2"
-            width={50}
-            height={33}
+            width={80}
+            height={80}
             alt="Logo"
           />
         </a>
@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <div className="mr-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/your-linkedin-profile"
+          href="https://www.linkedin.com/in/rastogishivang/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -28,7 +28,7 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.github.com/in/your-github-profile"
+          href="https://github.com/shivangrastogi"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -36,7 +36,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.instagram.com/in/your-instagram-profile"
+          href="https://www.instagram.com/guitarist_army/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -44,7 +44,7 @@ const Navbar = () => {
           <FaInstagram />
         </a>
         <a
-          href="https://twitter.com/your-twitter-profile"
+          href="https://x.com/_S_hivang_"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"

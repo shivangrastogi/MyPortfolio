@@ -1,8 +1,10 @@
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiArduino } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaHtml5, FaCss3Alt, FaJava } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -49,6 +51,21 @@ const Technologies = () => {
         </motion.div>
         <motion.div initial="initial" animate="animate" variants={iconVariants(6)} className="p-4">
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
+          <FaHtml5 className="text-7xl text-orange-500" />
+        </motion.div>
+        <motion.div initial="initial" animate="animate" variants={iconVariants(7)} className="p-4">
+          <FaCss3Alt className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div initial="initial" animate="animate" variants={iconVariants(4.5)} className="p-4">
+          <FaJava className="text-7xl text-red-700" />
+        </motion.div>
+        <motion.div initial="initial" animate="animate" variants={iconVariants(6.5)} className="p-4">
+          <IoLogoJavascript className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div initial="initial" animate="animate" variants={iconVariants(8)} className="p-4">
+          <SiArduino className="text-7xl text-green-600" />
         </motion.div>
       </motion.div>
     </div>
