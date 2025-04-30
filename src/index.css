@@ -4,14 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Reset and box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-:root{
-  font-family: "Inter" , sans-serif;
+/* Body and html setup */
+html, body {
+  font-family: 'Inter', sans-serif;
   background: #000000;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
